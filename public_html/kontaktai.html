@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <title>Kontaktai</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            color: darkblue;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/stilius.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="img/logo.png" alt="LOGO">
+    </div>
+    <div class="meniu">
+        <a href="#" style="color: red">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contacts</a>
+        <a href="nuorodos.html">Nuorodos</a>
+        <a href="folderis/kitas.html">Jonas</a>
+    </div>
+</header>
+<aside>
+    <span>C#</span>
+    <span>JAVA</span>
+    <span>SQL</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+</aside>
+<main>
+    <form action="kursiustiduomenis.php" method="POST">
+        <label for="fn">Vardas</label>
+        <input name="firstname" type="text" id="fn" />
+
+        <input name="lastname" type="text" placeholder="Pavardė" id="lastN"/>
+
+        <label for="masina">Automobilis</label>
+        <select name="cars" id="masina">
+            <option value="auto1">Volvo</option>
+            <option value="auto2">Saab</option>
+            <option value="kitas3">Fiat</option>
+            <option value="a4">Audi</option>
+        </select>
+
+        <label for="zinute">Tavo Zinute man</label>
+        <textarea name="message" rows="10" cols="30" id="zinute">
+            The cat was playing in the garden.
+        </textarea>
+
+        <button type="button" onclick="alert('Hello World!')">Labas!</button>
+        <input value="Siųsti" type="submit" />
+    </form>
+</main>
+<footer>
+    <span>&copy; All rights reserved 2020</span>
+</footer>
+</body>
+</html>
