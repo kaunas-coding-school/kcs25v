@@ -1,3 +1,18 @@
-p {
-    color: green;
+header {
+    background-color: lightpink;
+    border: 1px solid #000000;
+    height: 100px;
+}
+aside {
+    background: lightskyblue;
+    border: 1px solid #000000;
+}
+main {
+    background: #f3f38f;
+    border: 1px solid #000000;
+}
+footer {
+    background-color: #2a2929;
+    color: white;
+    height: 50px;
 }
