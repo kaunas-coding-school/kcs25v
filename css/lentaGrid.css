@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 cols */
+    grid-template-rows:    1fr 1fr 1fr 1fr 1fr; /* 5 rows */
+    grid-gap: 5px;
+}
+div {
+    outline: 1px solid red;
+}
