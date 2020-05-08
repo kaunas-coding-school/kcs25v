@@ -27,3 +27,23 @@ footer {
     padding: 10px;
     position: fixed;
 }
+
+/* Meniu Stilius */
+.meniu > a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px 5px 0;
+    margin-right: 10px;
+    border-right: 1px solid black;
+    transition: all 1s ease-in-out;
+    width: 100px;
+}
+
+.meniu > a:last-child {
+    border-right: none;
+}
+
+.meniu > a:hover {
+    color: blue;
+    font-size: 1.5rem;
+}
