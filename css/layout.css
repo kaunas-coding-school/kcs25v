@@ -21,10 +21,8 @@ footer {
 section {
     grid-area: s;
 }
-
-
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) or (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     body {
         grid-template-areas:
                 'h'
@@ -32,29 +30,35 @@ section {
                 'm'
                 's'
                 'f'
-    ;
-    }
+    ;}
 }
-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+    body {
+        grid-template-areas:
+                'h'
+                'a'
+                'm'
+                's'
+                'f'
+    ;}
+}
 /* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     body {
         grid-template-areas:
                 'h h h h'
                 'a m m m'
                 's s s s'
                 'f f f f'
-    ;
-    }
+    ;}
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 1200px) {
+@media  only screen and (min-width: 1200px) {
     body {
         grid-template-areas:
                 'h h h h h'
                 'a m m m s'
                 'f f f f f'
-    ;
-    }
+    ;}
 }
