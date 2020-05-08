@@ -16,3 +16,14 @@ footer {
     color: white;
     height: 50px;
 }
+
+.norm{
+    background-color: red;
+    color: pink;
+    font-size: 2rem;
+    display: none;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+}

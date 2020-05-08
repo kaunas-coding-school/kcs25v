@@ -31,6 +31,9 @@ section {
                 's'
                 'f'
     ;}
+    .norm{
+        display: block;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 600px) {
