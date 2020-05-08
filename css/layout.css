@@ -5,6 +5,16 @@ body {
 header {
     grid-area: h;
 }
+header > div {
+    float: left;
+    display:flex;
+    align-items:center;
+    height: 100%;
+}
+header > div:last-child {
+    float: right;
+    justify-content:flex-end;
+}
 
 aside {
     grid-area: a;
@@ -29,8 +39,9 @@ section {
                 'a'
                 'm'
                 's'
-                'f'
-    ;}
+                'f';
+        grid-template-rows: auto;
+    }
     .norm{
         display: block;
     }
@@ -43,8 +54,9 @@ section {
                 'a'
                 'm'
                 's'
-                'f'
-    ;}
+                'f';
+        grid-template-rows: auto;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -53,8 +65,8 @@ section {
                 'h h h h'
                 'a m m m'
                 's s s s'
-                'f f f f'
-    ;}
+                'f f f f';
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media  only screen and (min-width: 1200px) {
@@ -62,6 +74,6 @@ section {
         grid-template-areas:
                 'h h h h h'
                 'a m m m s'
-                'f f f f f'
-    ;}
+                'f f f f f';
+    }
 }
