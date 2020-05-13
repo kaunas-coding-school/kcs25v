@@ -33,7 +33,7 @@
     <span>JavaScript</span>
 </aside>
 <main>
-    <form action="kursiustiduomenis.php" method="POST">
+    <form action="kursiustiduomenis.php" method="POST" id="fileUploadForm">
         <label for="fn">Vardas</label>
         <input name="firstname" type="text" id="fn" />
 
@@ -53,11 +53,16 @@
         </textarea>
 
         <button type="button" onclick="alert('Hello World!')">Labas!</button>
-        <input value="Siųsti" type="submit" />
+        <input value="Siųsti" type="submit" id="btnSubmit"/>
     </form>
+    <div id="result"></div>
 </main>
 <footer>
     <span>&copy; All rights reserved 2020</span>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/kontaktuForma.js"></script>
+
 </body>
 </html>
