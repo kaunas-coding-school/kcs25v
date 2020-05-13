@@ -8,3 +8,22 @@
     background-color: red;
     padding: 10px;
 }
+
+#lempute {
+    display: block;
+    width: 100px;
+    padding: 20px;
+    float: left;
+}
+.lempute2{
+    background: url('../img/off.png') no-repeat;
+    background-size: 100px 175px;
+    width: 100px;
+    height: 175px;
+    margin: 20px;
+    float: left;
+}
+.lemputeOn {
+    background: url('../img/on.png') no-repeat;
+    background-size: 100px 175px;
+}
